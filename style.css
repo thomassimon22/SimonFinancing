@@ -1,1 +1,75 @@
 
+/* style.css
+ * Made by Thomas Simon
+ * Spring 2020
+ */
+
+body {
+   position: relative;
+ }
+
+/* Add a black background color to the top navigation */
+.header {
+  position: fixed;
+  background-color: #fff;
+  overflow: hidden;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-color: #2a2a6f;
+}
+
+/* Style the links inside the navigation bar */
+.header a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.header a:hover {
+  background-color: #2d2d2d;
+  color: #fff;
+
+}
+
+.fp-image h1 {
+  position: absolute;
+  font-size: 20px;
+  color: #2a2a6f;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px #fff;
+  max-width: 50%;
+}
+
+.fp-image {
+  position: relative;
+  padding-top: 55px;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-color: #2a2a6f;
+}
+
+.box {
+  border-radius: 200px;
+  text-align: center;
+  border: 5px solid #2a2a6f;
+  width: 150px;
+  padding: 50px;
+}
+
+.testimonials {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
