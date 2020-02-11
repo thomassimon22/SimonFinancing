@@ -3,6 +3,11 @@
  * Spring 2020
  */
 
+@media (max-width: 600px)
+{
+	font-size: 5px;
+}
+
 body {
    position: relative;
    overflow-x: hidden;
